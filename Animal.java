@@ -10,13 +10,11 @@ public class Animal {
         this.family = family;
         this.name = name;
         this.age = age;
-        this.isMammal =false;
+        this.isMammal = isMammal; // Corrigé pour utiliser le paramètre
     }
 
     @Override
     public String toString() {
-        return "Animal [family=" + family + ", name=" + name + ", age=" + age+ ", isMammal=" + isMammal + "]";
+        return "Animal [family=" + family + ", name=" + name + ", age=" + age + ", isMammal=" + isMammal + "]";
     }
 }
-
-
